@@ -5,6 +5,7 @@
  */
 package lanzador;
 
+import pojo.Estudiante;
 /**
  *
  * @author cpr1
@@ -15,7 +16,12 @@ public class LanzadorPrincipal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Estudiante estudiante1 = new Estudiante();
+        estudiante1.setNombre("Pepe");
+        estudiante1.setPape("Pérez");
+        estudiante1.setCurso(1);
+        
+        
     }
     
 }
