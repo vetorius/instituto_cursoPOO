@@ -9,6 +9,27 @@ package pojo;
  *
  * @author cpr1
  */
-public class Estudiante {
+public class Estudiante  extends Persona {
+    // atributos
+    private int curso;
+    
+    // constructores
+    
+    
+    // métodos
+
+    /**
+     * @return the curso
+     */
+    public int getCurso() {
+        return curso;
+    }
+
+    /**
+     * @param curso the curso to set
+     */
+    public void setCurso(int curso) {
+        this.curso = curso;
+    }
     
 }
