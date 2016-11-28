@@ -19,10 +19,10 @@ public class LanzadorPrincipal {
      */
     public static void main(String[] args) {
         Estudiante estudiante1 = new Estudiante("Pepe", "Pérez", 1);
-        System.out.println("El estudiante " + estudiante1.getNombre()+ " " + estudiante1.getPape() + " está en el curso " + estudiante1.getCurso());
+        System.out.println("El estudiante " + estudiante1.saludar() + " está en el curso " + estudiante1.getCurso());
         
         Docente docente1 = new Docente("Juan", "Rodríguez", "Informática");
-        System.out.println("El profesor " + docente1.getNombre()+ " " + docente1.getPape() + " es de la especialidad " + docente1.getEspecialidad());
+        System.out.println("El profesor " + docente1.saludar() + " es de la especialidad " + docente1.getEspecialidad());
         
         
     }

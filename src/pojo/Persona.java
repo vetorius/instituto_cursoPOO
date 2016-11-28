@@ -21,7 +21,9 @@ public class Persona {
     }
     
     // métodos
-
+    public String saludar(){
+        return this.nombre+" "+this.pape;
+    }
     /**
      * @return the nombre
      */

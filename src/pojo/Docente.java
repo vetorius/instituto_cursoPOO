@@ -19,7 +19,9 @@ public class Docente extends Persona {
         this.especialidad = especialidad;
     }
     // métodos
-
+    public String saludar(){
+        return "Don/Doña " + super.saludar();
+    }
     /**
      * @return the especialidad
      */
