@@ -16,12 +16,11 @@ public class LanzadorPrincipal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Estudiante estudiante1 = new Estudiante();
-        estudiante1.setNombre("Pepe");
-        estudiante1.setPape("Pérez");
+        Estudiante estudiante1 = new Estudiante("Pepe", "Pérez");
+
         estudiante1.setCurso(1);
         
-        
+        System.out.println("El estudiante " + estudiante1.getNombre()+ " " + estudiante1.getPape() + " está en el curso " + estudiante1.getCurso());
     }
     
 }

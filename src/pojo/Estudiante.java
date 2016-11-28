@@ -14,7 +14,9 @@ public class Estudiante  extends Persona {
     private int curso;
     
     // constructores
-    
+    public Estudiante(String nombre, String pape){
+        super(nombre, pape);
+    }
     
     // métodos
 

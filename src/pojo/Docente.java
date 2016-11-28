@@ -14,7 +14,9 @@ public class Docente extends Persona {
     private String especialidad;
     
     // constructores
-    
+    public Docente(String nombre, String pape){
+        super(nombre, pape);
+    }
     // métodos
 
     /**
