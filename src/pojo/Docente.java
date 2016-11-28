@@ -9,6 +9,26 @@ package pojo;
  *
  * @author cpr1
  */
-public class Docente {
+public class Docente extends Persona {
+    // atributos
+    private String especialidad;
+    
+    // constructores
+    
+    // métodos
+
+    /**
+     * @return the especialidad
+     */
+    public String getEspecialidad() {
+        return especialidad;
+    }
+
+    /**
+     * @param especialidad the especialidad to set
+     */
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
     
 }
