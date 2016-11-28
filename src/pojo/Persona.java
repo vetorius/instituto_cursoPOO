@@ -13,8 +13,10 @@ public class Persona {
     // atributos
     private String nombre;
     private String pape;
+    
     // constructores
 
+    
     // métodos
 
     /**
