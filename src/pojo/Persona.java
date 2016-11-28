@@ -15,7 +15,10 @@ public class Persona {
     private String pape;
     
     // constructores
-
+    public Persona (String nombre, String pape){
+        this.nombre = nombre;
+        this.pape = pape;
+    }
     
     // métodos
 
