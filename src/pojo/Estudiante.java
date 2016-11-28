@@ -14,8 +14,9 @@ public class Estudiante  extends Persona {
     private int curso;
     
     // constructores
-    public Estudiante(String nombre, String pape){
+    public Estudiante(String nombre, String pape, int curso){
         super(nombre, pape);
+        this.curso = curso;
     }
     
     // métodos
